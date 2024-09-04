@@ -1,0 +1,176 @@
+<style>
+    @font-face {
+        font-family: meraFont;
+        src: url(KumbhSans-VariableFont_YOPQ\,wght.ttf);
+    }
+
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        /* background-color: aqua; */
+        line-height: 80px;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav {
+        width: 80vw;
+        /* border: 1px solid black; */
+        display: flex;
+    }
+
+    ol {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    #logo {
+        padding-right: 40px;
+        font-family: meraFont;
+        font-size: 1.1em;
+        font-weight: bold;
+        opacity: 1;
+
+    }
+
+    li {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90px;
+        font-family: meraFont;
+        font-size: .9em;
+        opacity: .6;
+        font-weight: 500;
+    }
+
+    .space {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .flex-grow {
+        display: flex;
+        flex-grow: 3;
+    }
+
+    hr {
+        width: 80vw;
+        margin: 10px auto;
+        opacity: .4;
+
+    }
+
+    .collection {
+        display: flex;
+        justify-content: end;
+    }
+
+    .main-page {
+        border: 1px solid black;
+        height: 80vh;
+        width: 75vw;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .side1 {
+        height: 390px;
+        width: 380px;
+        /* border: 1px solid red; */
+        margin-top: -5%;
+
+    }
+
+    .side1 img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .side2 {
+        border: 1px solid green;
+        width: 550px;
+        height: 400px;
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        /* align-items: center; */
+    }
+
+    .side2 h5 {
+        font-family: meraFont;
+        opacity: .8;
+        font-weight: 600;
+        letter-spacing: 1;
+        flex-grow: 1;
+    }
+
+    .side2 h2 {
+        margin-top: 25px;
+        /* border: 1px solid; */
+        position: absolute;
+        height: 90px;
+        width: 330px;
+        font-family: 'meraFont';
+        font-size: 2.1em;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .side2 p {
+        position: absolute;
+        top: 295px;
+        font-family: 'meraFont';
+        opacity: .8;
+        font-size: .8em;
+        line-height: 1.5;
+        display: flex;
+        flex-wrap: wrap;
+    }
+</style>
+
+<header>
+    <nav>
+        <ol>
+            <li id="logo">
+                <h1>sneakers</h1>
+            </li>
+            <li class="collection">Collections</li>
+            <li class="space">Men</li>
+            <li>Women</li>
+            <li>About</li>
+            <li id="flex-grow">Contact</li>
+            <!-- <li>trali</li>
+            <li>avatar</li> -->
+        </ol>
+    </nav>
+</header>
+<hr>
+<main>
+    <div class="main-page">
+        <div class="side1">
+            <img src="main.jpg" alt="">
+        </div>
+        <div class="side2">
+            <h5>SNEAKER COMPANY</h5>
+            <h2>Fall Limited Edition <br>Sneakers</h2>
+            <p>
+                These low-profile sneakers are your perfect casual wear <br> companion.Featuring a durable rubber outer
+                sole.they'll <br> withstand everything the weather can offer.
+            </p>
+            <h3>$125.00</h3>
+
+
+        </div>
+    </div>
+</main>
